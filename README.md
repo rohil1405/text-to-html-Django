@@ -11,3 +11,16 @@ This app is a generic way to provide filters that convert text into html.
 - Create app in that django-project.
 
        python manage.py startapp texteditor
+       
+ ## Steps:
+ 
+- Create your django project folder.
+- Create an app folder in the django project folder.
+- Install django-ckeditor.
+- Add template folder in the django folder and provide its path in django_folder > settings.py .
+- Add file named as urls.py in the app folder and provide its path in django_project > urls.py.
+- Create a model for Editor class in app_folder > models.py.
+- Create a form for the model in app_folder > forms.py.
+- Write html code for the converter in django_project > template > index.html.
+- Add path of index html page in app_folder > urls.py.
+- Create function for the index html page in app_folder >views.py.
