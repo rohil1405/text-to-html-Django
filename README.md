@@ -25,3 +25,7 @@ This app is a generic way to provide filters that convert text into html.
 8) Write html code for the converter in **django_project > template > index.html**.
 9) Add path of index html page in **app_folder > urls.py**.
 10) Create function for the index html page in **app_folder >views.py**.
+
+## Text to html converter:
+
+<img width="956" alt="Text to Html converter" src="https://user-images.githubusercontent.com/103554765/223472601-5876e80a-c75e-4fc6-b735-68c5a8a5d3b2.png">
