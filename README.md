@@ -7,11 +7,15 @@ This app is a generic way to provide filters that convert text into html.
       
 - Create a Django project.
 
-       django admin startproject blog_text_to_html
+       django admin startproject texttohtml
        
 - Create app in that django-project.
 
-       python manage.py startapp texteditor
+       python manage.py startapp blog
+       
+ - Django Admin:
+ 
+            python manage.py createsuperuser
        
  ## Steps:
  
